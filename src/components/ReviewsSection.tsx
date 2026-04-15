@@ -57,6 +57,9 @@ export function ReviewsSection({ data }: Props) {
             {t("title")}
           </h2>
           <p className="mt-3 max-w-2xl text-lg text-slate-600">{t("subtitle")}</p>
+          <p className="mt-3 max-w-3xl rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+            {t("mockNotice")}
+          </p>
         </Reveal>
 
         {showCards ? (

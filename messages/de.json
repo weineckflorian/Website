@@ -132,6 +132,7 @@
   "Reviews": {
     "title": "Bewertungen",
     "subtitle": "Auszug aus Google Maps (bis zu fünf aktuelle Bewertungen).",
+    "mockNotice": "Hinweis: Die aktuell angezeigten Bewertungen sind Platzhalter (Mock-Daten) und werden in Kürze durch echte Google-Bewertungen ersetzt.",
     "empty": "Für diesen Eintrag liegen gerade keine Bewertungen über die Schnittstelle vor.",
     "missingKey": "Google-Bewertungen: Tragen Sie GOOGLE_PLACES_API_KEY in .env.local ein (Google Cloud, Places API).",
     "placeNotFound": "Eintrag nicht gefunden. Setzen Sie GOOGLE_PLACE_ID oder prüfen Sie GOOGLE_PLACES_PHONE / GOOGLE_PLACES_SEARCH_QUERY.",
