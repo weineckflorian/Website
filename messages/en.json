@@ -1,0 +1,237 @@
+{
+  "Metadata": {
+    "title": "Emergency Locksmith Florian Weineck | Door Opening Heidelberg",
+    "description": "Fast help when locked out, broken or lost keys in the Heidelberg area. Fixed prices, 24/7 service, small business benefits. Call now.",
+    "keywords": "emergency locksmith, Heidelberg, door opening, cylinder change, Florian Weineck"
+  },
+  "LocaleLayout": {
+    "title": "Emergency Locksmith Florian Weineck"
+  },
+  "Nav": {
+    "skipToContent": "Skip to content",
+    "home": "Home",
+    "services": "Services",
+    "benefits": "Benefits",
+    "faq": "FAQ",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Hero": {
+    "eyebrow": "Your emergency locksmith in Heidelberg",
+    "title": "Fast help at your door",
+    "subtitle": "Locked out, broken key, or lost key. I provide reliable door openings in the Heidelberg area for private individuals, landlords, and public authorities.",
+    "ctaCall": "Call now",
+    "ctaServices": "Services",
+    "phoneAria": "Call phone number",
+    "imageAlt": "Panoramic view of Heidelberg with castle and old town",
+    "trustLine": "Local, fixed prices on the phone, personal service"
+  },
+  "Benefits": {
+    "title": "Benefits",
+    "subtitle": "Why customers trust my service.",
+    "items": [
+      {
+        "title": "Short response time",
+        "description": "I live in Heidelberg and reach you quickly. I give you an estimated arrival time on the phone."
+      },
+      {
+        "title": "No VAT shown, fair pricing",
+        "description": "As a small business (Kleinunternehmer), VAT is not shown on invoices. I pass that advantage on to you."
+      },
+      {
+        "title": "Day & night",
+        "description": "I am available around the clock. You can also check my hours on Google Maps."
+      }
+    ]
+  },
+  "Services": {
+    "title": "Services",
+    "subtitle": "Fixed prices, transparent and fair.",
+    "intro": "I offer my services at fixed prices.",
+    "simple": {
+      "title": "Simple door opening",
+      "price": "€ 69",
+      "description": "The door is only pulled shut, not locked. That counts as a simple opening.",
+      "bullets": ["Door not locked", "Key inserted from inside"]
+    },
+    "difficult": {
+      "title": "Complex door opening",
+      "price": "€ 99",
+      "description": "When the door is locked, for example with a lost or broken key.",
+      "bullets": [
+        "Lost key",
+        "Broken key",
+        "Foreign object in cylinder",
+        "Self-locking lock"
+      ]
+    },
+    "cylinder": {
+      "title": "Cylinder change (lock change)",
+      "price": "from € 69",
+      "description": "Replacement due to wear, security upgrades, or after key loss.",
+      "bullets": [
+        "Prevent wear / defects",
+        "Modernise security",
+        "Lost key",
+        "Uncontrolled keys in circulation"
+      ]
+    },
+    "extra": {
+      "title": "Additional services & surcharges",
+      "items": [
+        "Travel: €10 to €30",
+        "Replacement cylinder with complex opening",
+        "Lock defects (key stuck, spins freely), price on request",
+        "Night, Sunday & public holiday surcharge: €30"
+      ]
+    }
+  },
+  "Faq": {
+    "title": "FAQ",
+    "subtitle": "Common questions, answered briefly.",
+    "items": [
+      {
+        "q": "Do you open doors without damage?",
+        "a": "If the door is only pulled shut and not locked, I usually open it without damage, except for very narrow gaps or stiff latches. I then check alternatives (e.g. a window) before drilling the cylinder."
+      },
+      {
+        "q": "Will you quote a final price on the phone?",
+        "a": "Yes. After you describe the situation, I give a final price with no hidden costs. Rarely it may change if a technique cannot be applied."
+      },
+      {
+        "q": "What payment methods do you accept?",
+        "a": "Cash and debit (EC) card. You receive an invoice and receipt. I do not offer payment on invoice."
+      },
+      {
+        "q": "How long does an opening take?",
+        "a": "Travel is often longer than the opening itself. Pulled-shut door: often ~10 minutes; locked door: up to ~30 minutes."
+      },
+      {
+        "q": "Do I get an invoice and receipt?",
+        "a": "Yes, of course."
+      },
+      {
+        "q": "Will home contents insurance cover the cost?",
+        "a": "That depends on your policy. If your key was stolen, reimbursement is often possible. Ask your insurer."
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "I look forward to your call. No obligation, quick response.",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "hoursNote": "Service day and night. See Google Maps for details.",
+    "mapHeading": "Google Maps",
+    "mapIframeTitle": "Map: Florian Weineck emergency locksmith, Heidelberg",
+    "mapLinkOpen": "Open larger map in Google Maps"
+  },
+  "Reviews": {
+    "title": "Reviews",
+    "subtitle": "From Google Maps (up to five recent reviews).",
+    "empty": "No reviews are available via the API for this listing right now.",
+    "missingKey": "Google reviews: add GOOGLE_PLACES_API_KEY to .env.local (Google Cloud, Places API).",
+    "placeNotFound": "Place not found. Set GOOGLE_PLACE_ID or check GOOGLE_PLACES_PHONE / GOOGLE_PLACES_SEARCH_QUERY.",
+    "openOnGoogle": "See all reviews on Google Maps",
+    "googleAttribution": "Data from Google",
+    "basedOn": "Based on {count} Google reviews"
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "imprint": "Imprint",
+    "privacy": "Privacy",
+    "tagline": "Emergency Locksmith Florian Weineck, Heidelberg and surrounding area"
+  },
+  "CookieConsent": {
+    "text": "This website uses cookies and similar technologies to keep the site secure and improve your experience.",
+    "privacyLink": "Learn more in the privacy policy",
+    "accept": "Accept all",
+    "decline": "Decline"
+  },
+  "Legal": {
+    "impressumTitle": "Imprint",
+    "impressumDescription": "Legal notice and contact details for Florian Weineck emergency locksmith, Heidelberg.",
+    "privacyTitle": "Privacy policy",
+    "privacyDescription": "How we process personal data when you use this website.",
+    "backHome": "Back to home"
+  },
+  "ImpressumPage": {
+    "content": [
+      { "type": "h2", "text": "Information pursuant to § 5 TMG" },
+      {
+        "type": "p",
+        "text": "Florian Weineck\nLaubenweg 3\n69123 Heidelberg\nGermany"
+      },
+      { "type": "h2", "text": "Contact" },
+      {
+        "type": "p",
+        "text": "Phone: +49 174 7120901\nEmail: info@schlüsselnotdienst-weineck.de"
+      },
+      { "type": "h2", "text": "VAT" },
+      {
+        "type": "p",
+        "text": "VAT identification number pursuant to § 27 a of the German VAT Act: DE369507966"
+      },
+      { "type": "h2", "text": "EU dispute resolution" },
+      {
+        "type": "p",
+        "text": "The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr/. You can find our email address in the imprint above."
+      },
+      {
+        "type": "p",
+        "text": "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+      }
+    ]
+  },
+  "PrivacyPage": {
+    "content": [
+      {
+        "type": "h2",
+        "text": "1. Data protection overview"
+      },
+      {
+        "type": "h3",
+        "text": "General information"
+      },
+      {
+        "type": "p",
+        "text": "The following notes provide a simple overview of what happens to your personal data when you visit this website. Personal data is any data with which you can be personally identified."
+      },
+      {
+        "type": "h2",
+        "text": "2. Controller"
+      },
+      {
+        "type": "p",
+        "text": "The controller responsible for processing data on this website is Florian Weineck, Laubenweg 3, 69123 Heidelberg, Germany, phone +49 174 7120901, email info@schlüsselnotdienst-weineck.de."
+      },
+      {
+        "type": "h2",
+        "text": "3. Data collection on this website"
+      },
+      {
+        "type": "h3",
+        "text": "Hosting"
+      },
+      {
+        "type": "p",
+        "text": "This website is hosted by an external provider. This may process IP addresses, browser type, and access times in server logs. Processing is based on Art. 6 (1) lit. f GDPR (legitimate interest in secure and efficient provision)."
+      },
+      {
+        "type": "h2",
+        "text": "4. Your rights"
+      },
+      {
+        "type": "p",
+        "text": "You have the right to access, rectification, erasure, restriction of processing, data portability, and objection. You also have the right to lodge a complaint with a supervisory authority."
+      },
+      {
+        "type": "p",
+        "text": "April 2026. Please have these texts reviewed by a qualified professional if required."
+      }
+    ]
+  }
+}

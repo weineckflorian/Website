@@ -1,0 +1,237 @@
+{
+  "Metadata": {
+    "title": "Schlüsselnotdienst Florian Weineck | Türöffnung Heidelberg",
+    "description": "Schnelle Hilfe bei Aussperrung, abgebrochenem oder verlorenem Schlüssel im Raum Heidelberg. Festpreise, Tag und Nacht, Kleinunternehmer. Rufen Sie an.",
+    "keywords": "Schlüsselnotdienst, Heidelberg, Türöffnung, Zylinderwechsel, Florian Weineck"
+  },
+  "LocaleLayout": {
+    "title": "Schlüsselnotdienst Florian Weineck"
+  },
+  "Nav": {
+    "skipToContent": "Zum Inhalt springen",
+    "home": "Home",
+    "services": "Leistungen",
+    "benefits": "Vorteile",
+    "faq": "FAQs",
+    "reviews": "Bewertungen",
+    "contact": "Kontakt",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  },
+  "Hero": {
+    "eyebrow": "Ihr Schlüsselnotdienst aus Heidelberg",
+    "title": "Schnelle Hilfe vor Ihrer Tür",
+    "subtitle": "Ob ausgesperrt, Schlüssel abgebrochen oder verloren. Ich biete zuverlässige Türöffnungen im Raum Heidelberg für Privatpersonen, Vermieter und Behörden.",
+    "ctaCall": "Jetzt anrufen",
+    "ctaServices": "Leistungen",
+    "phoneAria": "Telefonnummer anrufen",
+    "imageAlt": "Blick über Heidelberg mit Schloss und Altstadt",
+    "trustLine": "Lokal vor Ort, Festpreise am Telefon, persönlicher Service"
+  },
+  "Benefits": {
+    "title": "Vorteile",
+    "subtitle": "Warum Kundinnen und Kunden mir vertrauen.",
+    "items": [
+      {
+        "title": "Geringe Anfahrtszeit",
+        "description": "Ich wohne in Heidelberg und bin schnell vor Ort. Noch am Telefon erhalten Sie eine geschätzte Anfahrtszeit."
+      },
+      {
+        "title": "Keine MwSt. als Preisvorteil",
+        "description": "Als Kleinunternehmer weise ich auf Rechnungen keine Umsatzsteuer aus. Diesen Vorteil gebe ich direkt an Sie weiter."
+      },
+      {
+        "title": "Tag & Nacht",
+        "description": "Ich bin für Sie rund um die Uhr erreichbar. Aktuelle Zeiten finden Sie auch auf Google Maps."
+      }
+    ]
+  },
+  "Services": {
+    "title": "Leistungen",
+    "subtitle": "Festpreise, transparent und fair.",
+    "intro": "Meine Dienstleistungen biete ich zu Festpreisen an.",
+    "simple": {
+      "title": "Einfache Türöffnung",
+      "price": "69,- €",
+      "description": "Die Tür ist nur zugezogen, nicht abgeschlossen. Dann handelt es sich um eine einfache Türöffnung.",
+      "bullets": ["Tür nicht abgeschlossen", "Schlüssel steckt von innen"]
+    },
+    "difficult": {
+      "title": "Erschwerte Türöffnung",
+      "price": "99,- €",
+      "description": "Wenn die Tür abgeschlossen ist, etwa bei verlorenem oder abgebrochenem Schlüssel.",
+      "bullets": [
+        "Schlüssel verloren",
+        "Schlüssel abgebrochen",
+        "Fremdkörper im Zylinder",
+        "Selbstverriegelndes Schloss"
+      ]
+    },
+    "cylinder": {
+      "title": "Zylinderwechsel (Schlosswechsel)",
+      "price": "ab 69,- €",
+      "description": "Austausch aus Verschleiß, Sicherheitsgründen oder nach Verlust.",
+      "bullets": [
+        "Verschleiß / Defekt vorbeugen",
+        "Sicherheitssystem modernisieren",
+        "Schlüssel verloren",
+        "„Schwarze“ Schlüssel im Umlauf"
+      ]
+    },
+    "extra": {
+      "title": "Besondere Leistungen & Zuschläge",
+      "items": [
+        "An- und Abfahrt: 10 bis 30 €",
+        "Wechselzylinder bei erschwerter Türöffnung",
+        "Schlossdefekte (Schlüssel klemmt, dreht durch), Preis auf Anfrage",
+        "Nacht-, Sonn- und Feiertagszuschlag: 30 €"
+      ]
+    }
+  },
+  "Faq": {
+    "title": "FAQs",
+    "subtitle": "Die häufigsten Fragen, kurz beantwortet.",
+    "items": [
+      {
+        "q": "Öffnen Sie Türen zerstörungsfrei?",
+        "a": "Wenn die Tür nur zugezogen und nicht abgeschlossen ist, öffne ich solche Türen in der Regel zerstörungsfrei, außer bei sehr schmalen Spalten oder schwer beweglicher Falle. Dann prüfe ich zuerst Alternativen, etwa ein Fenster, bevor der Zylinder aufgefräst wird."
+      },
+      {
+        "q": "Bekomme ich am Telefon einen Endpreis?",
+        "a": "Ja. Nach Ihrer Schilderung nenne ich einen Endpreis ohne versteckte Kosten. In seltenen Fällen kann er sich ändern, wenn bestimmte Öffnungstechniken nicht anwendbar sind."
+      },
+      {
+        "q": "Welche Zahlungsmöglichkeiten gibt es?",
+        "a": "Barzahlung und EC-Karte. Sie erhalten Rechnung und Quittung. Auf Rechnungskauf biete ich aus Erfahrung keine Zahlung an."
+      },
+      {
+        "q": "Wie lange dauert eine Türöffnung?",
+        "a": "Oft ist die Anfahrt länger als die Öffnung selbst. Nur zugezogene Tür: oft ca. 10 Minuten; abgeschlossene Tür: bis zu etwa 30 Minuten."
+      },
+      {
+        "q": "Erhalte ich Rechnung und Quittung?",
+        "a": "Ja, selbstverständlich."
+      },
+      {
+        "q": "Übernimmt die Hausratversicherung die Kosten?",
+        "a": "Das ist von Police zu Police unterschiedlich. Bei gestohlenem Schlüssel besteht oft eine realistische Chance auf Erstattung der Kosten für die Türöffnung. Fragen Sie bei Ihrer Versicherung nach."
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Kontakt",
+    "subtitle": "Ich freue mich auf Ihren Anruf. Unverbindlich und schnell.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail",
+    "addressLabel": "Adresse",
+    "hoursNote": "Service Tag und Nacht. Konkrete Zeiten siehe Google Maps.",
+    "mapHeading": "Google Maps",
+    "mapIframeTitle": "Karte: Schlüsselnotdienst Florian Weineck, Heidelberg",
+    "mapLinkOpen": "Größere Karte bei Google öffnen"
+  },
+  "Reviews": {
+    "title": "Bewertungen",
+    "subtitle": "Auszug aus Google Maps (bis zu fünf aktuelle Bewertungen).",
+    "empty": "Für diesen Eintrag liegen gerade keine Bewertungen über die Schnittstelle vor.",
+    "missingKey": "Google-Bewertungen: Tragen Sie GOOGLE_PLACES_API_KEY in .env.local ein (Google Cloud, Places API).",
+    "placeNotFound": "Eintrag nicht gefunden. Setzen Sie GOOGLE_PLACE_ID oder prüfen Sie GOOGLE_PLACES_PHONE / GOOGLE_PLACES_SEARCH_QUERY.",
+    "openOnGoogle": "Alle Bewertungen auf Google Maps ansehen",
+    "googleAttribution": "Daten von Google",
+    "basedOn": "Basierend auf {count} Bewertungen auf Google"
+  },
+  "Footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "tagline": "Schlüsselnotdienst Florian Weineck, Heidelberg und Umgebung"
+  },
+  "CookieConsent": {
+    "text": "Diese Website verwendet Cookies und aehnliche Technologien, um die Seite sicher zu betreiben und Ihr Nutzungserlebnis zu verbessern.",
+    "privacyLink": "Mehr in der Datenschutzerklaerung",
+    "accept": "Alle akzeptieren",
+    "decline": "Ablehnen"
+  },
+  "Legal": {
+    "impressumTitle": "Impressum",
+    "impressumDescription": "Impressum und rechtliche Angaben zu Schlüsselnotdienst Florian Weineck, Heidelberg.",
+    "privacyTitle": "Datenschutzerklärung",
+    "privacyDescription": "Informationen zur Verarbeitung personenbezogener Daten auf dieser Website.",
+    "backHome": "Zur Startseite"
+  },
+  "ImpressumPage": {
+    "content": [
+      { "type": "h2", "text": "Angaben gemäß § 5 TMG" },
+      {
+        "type": "p",
+        "text": "Florian Weineck\nLaubenweg 3\n69123 Heidelberg\nDeutschland"
+      },
+      { "type": "h2", "text": "Kontakt" },
+      {
+        "type": "p",
+        "text": "Telefon: +49 174 7120901\nE-Mail: info@schlüsselnotdienst-weineck.de"
+      },
+      { "type": "h2", "text": "Umsatzsteuer" },
+      {
+        "type": "p",
+        "text": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE369507966"
+      },
+      { "type": "h2", "text": "EU-Streitschlichtung" },
+      {
+        "type": "p",
+        "text": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Unsere E-Mail-Adresse finden Sie oben im Impressum."
+      },
+      {
+        "type": "p",
+        "text": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+      }
+    ]
+  },
+  "PrivacyPage": {
+    "content": [
+      {
+        "type": "h2",
+        "text": "1. Datenschutz auf einen Blick"
+      },
+      {
+        "type": "h3",
+        "text": "Allgemeine Hinweise"
+      },
+      {
+        "type": "p",
+        "text": "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können."
+      },
+      {
+        "type": "h2",
+        "text": "2. Verantwortliche Stelle"
+      },
+      {
+        "type": "p",
+        "text": "Verantwortlich für die Datenverarbeitung auf dieser Website ist Florian Weineck, Laubenweg 3, 69123 Heidelberg, Telefon +49 174 7120901, E-Mail info@schlüsselnotdienst-weineck.de."
+      },
+      {
+        "type": "h2",
+        "text": "3. Datenerfassung auf dieser Website"
+      },
+      {
+        "type": "h3",
+        "text": "Hosting"
+      },
+      {
+        "type": "p",
+        "text": "Diese Website wird bei einem externen Dienstleister gehostet. Hierbei können u. a. IP-Adressen, Browsertyp und Zugriffszeitpunkt in Logfiles verarbeitet werden. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren und effizienten Bereitstellung)."
+      },
+      {
+        "type": "h2",
+        "text": "4. Ihre Rechte"
+      },
+      {
+        "type": "p",
+        "text": "Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch gegen die Verarbeitung. Außerdem haben Sie das Recht, sich bei einer Aufsichtsbehörde zu beschweren."
+      },
+      {
+        "type": "p",
+        "text": "Stand: April 2026. Bitte lassen Sie diese Texte bei Bedarf von einer Fachkraft prüfen."
+      }
+    ]
+  }
+}
