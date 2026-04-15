@@ -10,7 +10,21 @@ const base =
 const routes = ["/", "/impressum", "/datenschutz"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const out: MetadataRoute.Sitemap = [];
+  const out: MetadataRoute.Sitemap = [
+    {
+      url: `${base}/`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 1,
+      alternates: {
+        languages: {
+          de: `${base}/de`,
+          en: `${base}/en`,
+          "x-default": `${base}/de`,
+        },
+      },
+    },
+  ];
 
   for (const href of routes) {
     const languages: Record<string, string> = {};

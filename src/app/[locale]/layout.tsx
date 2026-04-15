@@ -69,14 +69,15 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html className={`${dmSans.variable} h-full scroll-smooth`} lang={locale}>
-      <body className="min-h-full flex flex-col font-sans antialiased">
-        <JsonLd locale={locale} />
-        <NextIntlClientProvider messages={messages}>
-          {children}
-          <CookieConsentBanner />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <div
+      className={`${dmSans.variable} min-h-full scroll-smooth font-sans antialiased`}
+      lang={locale}
+    >
+      <JsonLd locale={locale} />
+      <NextIntlClientProvider messages={messages}>
+        {children}
+        <CookieConsentBanner />
+      </NextIntlClientProvider>
+    </div>
   );
 }
