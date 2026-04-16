@@ -21,7 +21,7 @@
   "Hero": {
     "eyebrow": "Ihr Schlüsselnotdienst aus Heidelberg",
     "title": "Schnelle Hilfe vor Ihrer Tür",
-    "subtitle": "Ob ausgesperrt, Schlüssel abgebrochen oder verloren. Ich biete zuverlässige Türöffnungen im Raum Heidelberg für Privatpersonen, Vermieter und Behörden.",
+    "subtitle": "Ob ausgesperrt, Schlüssel abgebrochen oder verloren. Wir bieten zuverlässige Türöffnungen im Raum Heidelberg für Privatpersonen, Vermieter und Behörden.",
     "ctaCall": "Jetzt anrufen",
     "ctaServices": "Leistungen",
     "phoneAria": "Telefonnummer anrufen",
@@ -30,26 +30,26 @@
   },
   "Benefits": {
     "title": "Vorteile",
-    "subtitle": "Warum Kundinnen und Kunden mir vertrauen.",
+    "subtitle": "Warum Kundinnen und Kunden uns vertrauen.",
     "items": [
       {
         "title": "Geringe Anfahrtszeit",
-        "description": "Ich wohne in Heidelberg und bin schnell vor Ort. Noch am Telefon erhalten Sie eine geschätzte Anfahrtszeit."
+        "description": "Wir sind in Heidelberg und schnell vor Ort. Noch am Telefon erhalten Sie eine geschätzte Anfahrtszeit."
       },
       {
         "title": "Keine MwSt. als Preisvorteil",
-        "description": "Als Kleinunternehmer weise ich auf Rechnungen keine Umsatzsteuer aus. Diesen Vorteil gebe ich direkt an Sie weiter."
+        "description": "Als Kleinunternehmer weisen wir auf Rechnungen keine Umsatzsteuer aus. Diesen Vorteil geben wir direkt an Sie weiter."
       },
       {
         "title": "Tag & Nacht",
-        "description": "Ich bin für Sie rund um die Uhr erreichbar. Aktuelle Zeiten finden Sie auch auf Google Maps."
+        "description": "Wir sind für Sie rund um die Uhr erreichbar. Aktuelle Zeiten finden Sie auch auf Google Maps."
       }
     ]
   },
   "Services": {
     "title": "Leistungen",
     "subtitle": "Festpreise, transparent und fair.",
-    "intro": "Meine Dienstleistungen biete ich zu Festpreisen an.",
+    "intro": "Unsere Dienstleistungen bieten wir zu Festpreisen an.",
     "simple": {
       "title": "Einfache Türöffnung",
       "price": "69,- €",
@@ -94,15 +94,15 @@
     "items": [
       {
         "q": "Öffnen Sie Türen zerstörungsfrei?",
-        "a": "Wenn die Tür nur zugezogen und nicht abgeschlossen ist, öffne ich solche Türen in der Regel zerstörungsfrei, außer bei sehr schmalen Spalten oder schwer beweglicher Falle. Dann prüfe ich zuerst Alternativen, etwa ein Fenster, bevor der Zylinder aufgefräst wird."
+        "a": "Wenn die Tür nur zugezogen und nicht abgeschlossen ist, öffnen wir solche Türen in der Regel zerstörungsfrei, außer bei sehr schmalen Spalten oder schwer beweglicher Falle. Dann prüfen wir zuerst Alternativen, etwa ein Fenster, bevor der Zylinder aufgefräst wird."
       },
       {
         "q": "Bekomme ich am Telefon einen Endpreis?",
-        "a": "Ja. Nach Ihrer Schilderung nenne ich einen Endpreis ohne versteckte Kosten. In seltenen Fällen kann er sich ändern, wenn bestimmte Öffnungstechniken nicht anwendbar sind."
+        "a": "Ja. Nach Ihrer Schilderung nennen wir einen Endpreis ohne versteckte Kosten. In seltenen Fällen kann er sich ändern, wenn bestimmte Öffnungstechniken nicht anwendbar sind."
       },
       {
         "q": "Welche Zahlungsmöglichkeiten gibt es?",
-        "a": "Barzahlung und EC-Karte. Sie erhalten Rechnung und Quittung. Auf Rechnungskauf biete ich aus Erfahrung keine Zahlung an."
+        "a": "Barzahlung und EC-Karte. Sie erhalten Rechnung und Quittung. Auf Rechnungskauf bieten wir aus Erfahrung keine Zahlung an."
       },
       {
         "q": "Wie lange dauert eine Türöffnung?",
@@ -120,14 +120,16 @@
   },
   "Contact": {
     "title": "Kontakt",
-    "subtitle": "Ich freue mich auf Ihren Anruf. Unverbindlich und schnell.",
+    "subtitle": "Wir freuen uns auf Ihren Anruf. Unverbindlich und schnell.",
     "phoneLabel": "Telefon",
     "emailLabel": "E-Mail",
     "addressLabel": "Adresse",
     "hoursNote": "Service Tag und Nacht. Konkrete Zeiten siehe Google Maps.",
     "mapHeading": "Google Maps",
     "mapIframeTitle": "Karte: Schlüsselnotdienst Florian Weineck, Heidelberg",
-    "mapLinkOpen": "Größere Karte bei Google öffnen"
+    "mapLinkOpen": "Größere Karte bei Google öffnen",
+    "mapConsentHint": "Die eingebettete Google-Karte lädt Inhalte von Google und setzt dabei unter Umständen Cookies. Sie können die Karte hier aktivieren oder die Adresse über den Link unten in Google Maps öffnen.",
+    "mapLoadEmbed": "Karte hier anzeigen"
   },
   "Reviews": {
     "title": "Bewertungen",
@@ -144,13 +146,14 @@
     "rights": "Alle Rechte vorbehalten.",
     "imprint": "Impressum",
     "privacy": "Datenschutz",
-    "tagline": "Schlüsselnotdienst Florian Weineck, Heidelberg und Umgebung"
+    "tagline": "Schlüsselnotdienst Florian Weineck, Heidelberg und Umgebung",
+    "siteCredit": "Website: Tim Strohmenger"
   },
   "CookieConsent": {
-    "text": "Diese Website verwendet Cookies und aehnliche Technologien, um die Seite sicher zu betreiben und Ihr Nutzungserlebnis zu verbessern.",
-    "privacyLink": "Mehr in der Datenschutzerklaerung",
-    "accept": "Alle akzeptieren",
-    "decline": "Ablehnen"
+    "text": "Diese Website verwendet technisch notwendige Speicherung (z. B. für Ihre Auswahl hier). Wenn Sie „Alle akzeptieren“ wählen, dürfen wir auch die eingebettete Google-Karte laden (dabei können Cookies und personenbezogene Daten an Google übermittelt werden).",
+    "privacyLink": "Mehr in der Datenschutzerklärung",
+    "acceptAll": "Alle akzeptieren",
+    "essentialOnly": "Nur notwendige"
   },
   "Legal": {
     "impressumTitle": "Impressum",
@@ -220,6 +223,14 @@
       {
         "type": "p",
         "text": "Diese Website wird bei einem externen Dienstleister gehostet. Hierbei können u. a. IP-Adressen, Browsertyp und Zugriffszeitpunkt in Logfiles verarbeitet werden. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren und effizienten Bereitstellung)."
+      },
+      {
+        "type": "h3",
+        "text": "Google Maps (Einbettung)"
+      },
+      {
+        "type": "p",
+        "text": "Auf dieser Website kann eine Karte von Google Maps eingebunden werden. Die Karte wird erst geladen, wenn Sie der Einbindung zustimmen („Alle akzeptieren“ oder „Karte hier anzeigen“). Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Es können dabei Daten (u. a. IP-Adresse) an Google übermittelt und Cookies gesetzt werden. Details finden Sie in der Datenschutzerklärung von Google: https://policies.google.com/privacy. Rechtsgrundlage bei Einwilligung ist Art. 6 Abs. 1 lit. a DSGVO."
       },
       {
         "type": "h2",

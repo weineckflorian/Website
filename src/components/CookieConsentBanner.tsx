@@ -3,22 +3,27 @@
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-
-const CONSENT_KEY = "fw_cookie_consent_v1";
+import { readCookieConsent, writeCookieConsent } from "@/lib/cookieConsent";
 
 export function CookieConsentBanner() {
   const t = useTranslations("CookieConsent");
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const value = window.localStorage.getItem(CONSENT_KEY);
-    if (!value) {
-      queueMicrotask(() => setVisible(true));
-    }
+    const sync = () => {
+      setVisible(readCookieConsent() === "none");
+    };
+    queueMicrotask(sync);
+    window.addEventListener("fw-cookie-consent-changed", sync);
+    window.addEventListener("storage", sync);
+    return () => {
+      window.removeEventListener("fw-cookie-consent-changed", sync);
+      window.removeEventListener("storage", sync);
+    };
   }, []);
 
-  const saveConsent = (value: "accepted" | "declined") => {
-    window.localStorage.setItem(CONSENT_KEY, value);
+  const save = (level: "essential" | "all") => {
+    writeCookieConsent(level);
     setVisible(false);
   };
 
@@ -40,16 +45,16 @@ export function CookieConsentBanner() {
           <button
             type="button"
             className="rounded-full border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-100"
-            onClick={() => saveConsent("declined")}
+            onClick={() => save("essential")}
           >
-            {t("decline")}
+            {t("essentialOnly")}
           </button>
           <button
             type="button"
             className="rounded-full bg-ring px-4 py-2 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-            onClick={() => saveConsent("accepted")}
+            onClick={() => save("all")}
           >
-            {t("accept")}
+            {t("acceptAll")}
           </button>
         </div>
       </div>

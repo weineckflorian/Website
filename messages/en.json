@@ -21,7 +21,7 @@
   "Hero": {
     "eyebrow": "Your emergency locksmith in Heidelberg",
     "title": "Fast help at your door",
-    "subtitle": "Locked out, broken key, or lost key. I provide reliable door openings in the Heidelberg area for private individuals, landlords, and public authorities.",
+    "subtitle": "Locked out, broken key, or lost key. We provide reliable door openings in the Heidelberg area for private individuals, landlords, and public authorities.",
     "ctaCall": "Call now",
     "ctaServices": "Services",
     "phoneAria": "Call phone number",
@@ -30,26 +30,26 @@
   },
   "Benefits": {
     "title": "Benefits",
-    "subtitle": "Why customers trust my service.",
+    "subtitle": "Why customers trust us.",
     "items": [
       {
         "title": "Short response time",
-        "description": "I live in Heidelberg and reach you quickly. I give you an estimated arrival time on the phone."
+        "description": "We are based in Heidelberg and reach you quickly. You get an estimated arrival time on the phone."
       },
       {
         "title": "No VAT shown, fair pricing",
-        "description": "As a small business (Kleinunternehmer), VAT is not shown on invoices. I pass that advantage on to you."
+        "description": "As a small business (Kleinunternehmer), VAT is not shown on invoices. We pass that advantage on to you."
       },
       {
         "title": "Day & night",
-        "description": "I am available around the clock. You can also check my hours on Google Maps."
+        "description": "We are available around the clock. You can also check our hours on Google Maps."
       }
     ]
   },
   "Services": {
     "title": "Services",
     "subtitle": "Fixed prices, transparent and fair.",
-    "intro": "I offer my services at fixed prices.",
+    "intro": "We offer our services at fixed prices.",
     "simple": {
       "title": "Simple door opening",
       "price": "€ 69",
@@ -94,15 +94,15 @@
     "items": [
       {
         "q": "Do you open doors without damage?",
-        "a": "If the door is only pulled shut and not locked, I usually open it without damage, except for very narrow gaps or stiff latches. I then check alternatives (e.g. a window) before drilling the cylinder."
+        "a": "If the door is only pulled shut and not locked, we usually open it without damage, except for very narrow gaps or stiff latches. We then check alternatives (e.g. a window) before drilling the cylinder."
       },
       {
         "q": "Will you quote a final price on the phone?",
-        "a": "Yes. After you describe the situation, I give a final price with no hidden costs. Rarely it may change if a technique cannot be applied."
+        "a": "Yes. After you describe the situation, we give a final price with no hidden costs. Rarely it may change if a technique cannot be applied."
       },
       {
         "q": "What payment methods do you accept?",
-        "a": "Cash and debit (EC) card. You receive an invoice and receipt. I do not offer payment on invoice."
+        "a": "Cash and debit (EC) card. You receive an invoice and receipt. We do not offer payment on invoice."
       },
       {
         "q": "How long does an opening take?",
@@ -120,14 +120,16 @@
   },
   "Contact": {
     "title": "Contact",
-    "subtitle": "I look forward to your call. No obligation, quick response.",
+    "subtitle": "We look forward to your call. No obligation, quick response.",
     "phoneLabel": "Phone",
     "emailLabel": "Email",
     "addressLabel": "Address",
     "hoursNote": "Service day and night. See Google Maps for details.",
     "mapHeading": "Google Maps",
     "mapIframeTitle": "Map: Florian Weineck emergency locksmith, Heidelberg",
-    "mapLinkOpen": "Open larger map in Google Maps"
+    "mapLinkOpen": "Open larger map in Google Maps",
+    "mapConsentHint": "The embedded Google map loads content from Google and may set cookies. You can enable the map here or open the address in Google Maps via the link below.",
+    "mapLoadEmbed": "Show map here"
   },
   "Reviews": {
     "title": "Reviews",
@@ -144,13 +146,14 @@
     "rights": "All rights reserved.",
     "imprint": "Imprint",
     "privacy": "Privacy",
-    "tagline": "Emergency Locksmith Florian Weineck, Heidelberg and surrounding area"
+    "tagline": "Emergency Locksmith Florian Weineck, Heidelberg and surrounding area",
+    "siteCredit": "Website: Tim Strohmenger"
   },
   "CookieConsent": {
-    "text": "This website uses cookies and similar technologies to keep the site secure and improve your experience.",
+    "text": "This site uses technically necessary storage (for example, to remember your choice). If you choose “Accept all”, we may also load the embedded Google map (which may use cookies and send personal data to Google).",
     "privacyLink": "Learn more in the privacy policy",
-    "accept": "Accept all",
-    "decline": "Decline"
+    "acceptAll": "Accept all",
+    "essentialOnly": "Essential only"
   },
   "Legal": {
     "impressumTitle": "Imprint",
@@ -220,6 +223,14 @@
       {
         "type": "p",
         "text": "This website is hosted by an external provider. This may process IP addresses, browser type, and access times in server logs. Processing is based on Art. 6 (1) lit. f GDPR (legitimate interest in secure and efficient provision)."
+      },
+      {
+        "type": "h3",
+        "text": "Google Maps (embed)"
+      },
+      {
+        "type": "p",
+        "text": "This website may embed a map from Google Maps. The map only loads after you agree (“Accept all” or “Show map here”). The provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. Data (including IP address) may be transferred to Google and cookies may be set. See Google’s privacy policy: https://policies.google.com/privacy. The legal basis for processing with consent is Art. 6 (1) lit. a GDPR."
       },
       {
         "type": "h2",

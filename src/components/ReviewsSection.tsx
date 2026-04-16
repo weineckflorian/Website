@@ -79,12 +79,12 @@ export function ReviewsSection({ data }: Props) {
             )}
 
             <div
-              className={`reviews-scroller mt-10 flex gap-5 pb-2 sm:grid sm:grid-cols-2 sm:pb-0 lg:grid-cols-3 ${animate ? "reviews-animated" : ""}`.trim()}
+              className={`reviews-mobile-scroll mt-10 flex flex-col gap-4 sm:grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 ${animate ? "reviews-animated" : ""}`.trim()}
             >
               {reviews.map((rev, i) => (
                 <article
                   key={`${rev.author_name}-${i}`}
-                  className="review-card group flex min-w-[min(100%,320px)] shrink-0 flex-col rounded-2xl border border-slate-200/90 bg-white p-5 shadow-sm sm:min-w-0"
+                  className="review-card group flex w-full shrink-0 flex-col rounded-2xl border border-slate-200/90 bg-white p-5 shadow-sm"
                   style={{ animationDelay: `${0.06 + i * 0.09}s` }}
                 >
                   <div className="flex items-start gap-3">

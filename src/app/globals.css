@@ -120,13 +120,34 @@ body {
   }
 }
 
-/* FAQ: native details */
+/* FAQ: native details + height animation */
 .faq-details summary::-webkit-details-marker {
   display: none;
 }
 
 .faq-details summary {
   list-style: none;
+}
+
+.faq-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.faq-details[open] .faq-panel {
+  grid-template-rows: 1fr;
+}
+
+.faq-panel-inner {
+  min-height: 0;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-panel {
+    transition: none;
+  }
 }
 
 /* Google reviews: stagger + mobile carousel */
@@ -154,18 +175,21 @@ body {
   }
 }
 
-.reviews-scroller {
+/* Google reviews: vertical scroll pane on small screens */
+.reviews-mobile-scroll {
   scrollbar-width: thin;
 }
 
 @media (max-width: 639px) {
-  .reviews-scroller {
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+  .reviews-mobile-scroll {
+    max-height: min(70vh, 520px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-right: 2px;
     -webkit-overflow-scrolling: touch;
-  }
-
-  .reviews-scroller .review-card {
-    scroll-snap-align: start;
+    border-radius: 1rem;
+    border: 1px solid rgb(241 245 249);
+    background: rgb(248 250 252 / 0.85);
+    padding: 0.75rem;
   }
 }

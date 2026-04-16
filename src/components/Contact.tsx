@@ -45,8 +45,9 @@ export async function Contact() {
             <span className="mt-4 text-sm font-medium text-slate-500">
               {t("emailLabel")}
             </span>
-            <span className="mt-1 break-all text-lg font-semibold text-slate-900">
-              {EMAIL}
+            <span className="mt-1 text-lg font-semibold leading-snug text-slate-900 [overflow-wrap:anywhere] sm:whitespace-nowrap">
+              info@<wbr />
+              schlüsselnotdienst-weineck.de
             </span>
           </a>
           <div className="flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -70,6 +71,8 @@ export async function Contact() {
           title={t("mapIframeTitle")}
           linkLabel={t("mapLinkOpen")}
           placeUrl={GOOGLE_MAPS_PLACE_URL}
+          consentHint={t("mapConsentHint")}
+          loadMapLabel={t("mapLoadEmbed")}
         />
       </div>
     </section>

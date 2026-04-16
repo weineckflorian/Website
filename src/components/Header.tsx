@@ -44,10 +44,10 @@ export function Header() {
           className="transition-transform duration-200 hover:scale-[1.02]"
         >
           <Image
-            src="/images/logo-weineck-blue.jpeg"
+            src="/images/download%20no%20bg.png"
             alt="Schluesseldienst Florian Weineck"
-            width={280}
-            height={80}
+            width={1500}
+            height={426}
             className="h-9 w-auto sm:h-10"
             priority
           />

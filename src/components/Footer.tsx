@@ -15,6 +15,7 @@ export async function Footer() {
             <p className="mt-1 text-sm text-slate-400">
               © {year} Florian Weineck. {t("rights")}
             </p>
+            <p className="mt-2 text-xs text-slate-500">{t("siteCredit")}</p>
           </div>
           <nav className="flex flex-wrap gap-6 text-sm font-medium">
             <Link href="/impressum" className="transition-colors hover:text-white">

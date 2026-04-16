@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -10,6 +10,7 @@ const PHONE = "+491747120901";
 export function Hero() {
   const t = useTranslations("Hero");
   const sectionRef = useRef<HTMLElement>(null);
+  const [hiResReady, setHiResReady] = useState(false);
 
   useEffect(() => {
     const section = sectionRef.current;
@@ -48,14 +49,27 @@ export function Hero() {
       <div className="absolute inset-0">
         <div className="absolute inset-0 overflow-hidden">
           <Image
-            src="/images/heidelberg-hero.jpg"
-            alt={t("imageAlt")}
+            src="/images/heidelberg-hero-sm.jpg"
+            alt=""
             fill
             priority
             fetchPriority="high"
-            quality={78}
+            quality={60}
             sizes="100vw"
-            className="hero-scroll-image -scale-x-100 object-cover object-[center_35%] sm:object-center"
+            className="hero-scroll-image -scale-x-100 object-cover object-[center_35%] blur-[2px] sm:object-center"
+            aria-hidden
+          />
+          <Image
+            src="/images/heidelberg-hero.jpg"
+            alt={t("imageAlt")}
+            fill
+            loading="lazy"
+            quality={72}
+            sizes="100vw"
+            onLoad={() => setHiResReady(true)}
+            className={`hero-scroll-image -scale-x-100 object-cover object-[center_35%] transition-opacity duration-700 ease-out sm:object-center ${
+              hiResReady ? "opacity-100" : "opacity-0"
+            }`}
           />
         </div>
         <div
