@@ -12,8 +12,9 @@ type Props = {
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({ locale, namespace: "Legal" });
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de";
+  const base = (
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de"
+  ).replace(/\/$/, "");
   const path = getPathname({ locale, href: "/datenschutz" });
 
   return {

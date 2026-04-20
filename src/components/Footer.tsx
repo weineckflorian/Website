@@ -33,6 +33,9 @@ export async function Footer() {
             </p>
           </div>
           <nav className="flex flex-wrap gap-6 text-sm font-medium">
+            <Link href="/faq" className="transition-colors hover:text-white">
+              {t("faq")}
+            </Link>
             <Link href="/impressum" className="transition-colors hover:text-white">
               {t("imprint")}
             </Link>

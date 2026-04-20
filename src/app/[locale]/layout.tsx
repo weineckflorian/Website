@@ -4,7 +4,8 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { DM_Sans } from "next/font/google";
 import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
-import { JsonLd } from "@/components/JsonLd";
+import { getPathname } from "@/i18n/navigation";
+import { JsonLdLocksmith } from "@/components/JsonLd";
 import { CookieConsentBanner } from "@/components/CookieConsentBanner";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 
@@ -26,8 +27,12 @@ export function generateStaticParams() {
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de";
+  const base = (
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de"
+  ).replace(/\/$/, "");
+  const baseUrl = new URL(`${base}/`);
+  const homePath = getPathname({ locale, href: "/" });
+  const twitterSite = process.env.NEXT_PUBLIC_TWITTER_SITE?.trim();
 
   return {
     icons: {
@@ -41,25 +46,27 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
     },
     description: t("description"),
     keywords: t("keywords").split(",").map((k) => k.trim()),
-    metadataBase: new URL(base),
+    metadataBase: baseUrl,
     openGraph: {
       type: "website",
       locale: locale === "de" ? "de_DE" : "en_US",
       siteName: "Schlüsselnotdienst Florian Weineck",
+      url: new URL(homePath, baseUrl).toString(),
     },
     twitter: {
       card: "summary_large_image",
+      ...(twitterSite ? { site: twitterSite } : {}),
     },
     robots: {
       index: true,
       follow: true,
     },
     alternates: {
-      canonical: `/${locale}`,
+      canonical: `${base}${homePath}`,
       languages: {
-        de: "/de",
-        en: "/en",
-        "x-default": "/de",
+        de: `${base}${getPathname({ locale: "de", href: "/" })}`,
+        en: `${base}${getPathname({ locale: "en", href: "/" })}`,
+        "x-default": `${base}${getPathname({ locale: "de", href: "/" })}`,
       },
     },
   };
@@ -79,7 +86,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       className={`${dmSans.variable} min-h-full scroll-smooth font-sans antialiased`}
       lang={locale}
     >
-      <JsonLd locale={locale} />
+      <JsonLdLocksmith locale={locale} />
       <NextIntlClientProvider messages={messages}>
         {children}
         <CookieConsentBanner />

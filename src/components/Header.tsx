@@ -23,11 +23,11 @@ export function Header() {
   }, []);
 
   const links = [
-    { href: "#leistungen" as const, label: t("services") },
-    { href: "#vorteile" as const, label: t("benefits") },
-    { href: "#faq" as const, label: t("faq") },
-    { href: "#bewertungen" as const, label: t("reviews") },
-    { href: "#kontakt" as const, label: t("contact") },
+    { kind: "section" as const, hash: "leistungen", label: t("services") },
+    { kind: "section" as const, hash: "vorteile", label: t("benefits") },
+    { kind: "route" as const, href: "/faq" as const, label: t("faq") },
+    { kind: "section" as const, hash: "bewertungen", label: t("reviews") },
+    { kind: "section" as const, hash: "kontakt", label: t("contact") },
   ];
 
   return (
@@ -57,15 +57,25 @@ export function Header() {
           className="hidden items-center gap-8 text-sm font-medium text-slate-700 md:flex"
           aria-label="Main"
         >
-          {links.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="transition-[color,transform] duration-200 hover:-translate-y-px hover:text-ring"
-            >
-              {item.label}
-            </a>
-          ))}
+          {links.map((item) =>
+            item.kind === "route" ? (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="transition-[color,transform] duration-200 hover:-translate-y-px hover:text-ring"
+              >
+                {item.label}
+              </Link>
+            ) : (
+              <Link
+                key={item.hash}
+                href={{ pathname: "/", hash: item.hash }}
+                className="transition-[color,transform] duration-200 hover:-translate-y-px hover:text-ring"
+              >
+                {item.label}
+              </Link>
+            ),
+          )}
         </nav>
 
         <div className="flex items-center gap-2 sm:gap-3">
@@ -96,16 +106,27 @@ export function Header() {
       {menuOpen ? (
         <div className="border-t border-slate-100 bg-white md:hidden">
           <nav className="flex flex-col gap-3 px-4 py-4 text-base font-medium text-slate-800">
-            {links.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                onClick={() => setMenuOpen(false)}
-                className="rounded-lg px-2 py-2 hover:bg-slate-50"
-              >
-                {item.label}
-              </a>
-            ))}
+            {links.map((item) =>
+              item.kind === "route" ? (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="rounded-lg px-2 py-2 hover:bg-slate-50"
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <Link
+                  key={item.hash}
+                  href={{ pathname: "/", hash: item.hash }}
+                  onClick={() => setMenuOpen(false)}
+                  className="rounded-lg px-2 py-2 hover:bg-slate-50"
+                >
+                  {item.label}
+                </Link>
+              ),
+            )}
             <a
               href={`tel:${PHONE}`}
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-ring px-4 py-3 font-semibold text-white"

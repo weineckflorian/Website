@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
+import { SeoIntro } from "@/components/SeoIntro";
 import { Benefits } from "@/components/Benefits";
 import { Services } from "@/components/Services";
 import { ReviewsSection } from "@/components/ReviewsSection";
@@ -30,6 +31,7 @@ export default async function HomePage({ params }: Props) {
       <Header />
       <main id="main-content" className="flex-1" tabIndex={-1}>
         <Hero />
+        <SeoIntro />
         <Services />
         <Benefits />
         <Faq />

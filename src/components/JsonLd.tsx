@@ -1,11 +1,13 @@
+const SITE = (
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de"
+).replace(/\/$/, "");
+
 type Props = {
   locale: string;
 };
 
-const SITE =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de";
-
-export function JsonLd({ locale }: Props) {
+/** LocalBusiness / Locksmith: on all locale pages. */
+export function JsonLdLocksmith({ locale }: Props) {
   const data = {
     "@context": "https://schema.org",
     "@type": "Locksmith",

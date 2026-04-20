@@ -8,5 +8,6 @@ export const routing = defineRouting({
     /** Same path for all locales so static export matches `app/[locale]/…` folders and Footer links. */
     "/impressum": "/impressum",
     "/datenschutz": "/datenschutz",
+    "/faq": "/faq",
   },
 });

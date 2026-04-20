@@ -102,23 +102,20 @@ body {
   }
 }
 
-/* Scroll reveal (paired with Reveal.tsx) */
+/* Scroll reveal (paired with Reveal.tsx). Opacity stays 1 so crawlers and
+   no-JS tools still count body text; only transform animates. */
 .reveal {
-  opacity: 0;
-  transform: translateY(18px);
-  transition:
-    opacity 0.45s cubic-bezier(0.22, 1, 0.36, 1),
-    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  opacity: 1;
+  transform: translateY(14px);
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .reveal-visible {
-  opacity: 1;
   transform: translateY(0);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .reveal {
-    opacity: 1;
     transform: none;
     transition: none;
   }

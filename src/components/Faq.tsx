@@ -1,8 +1,14 @@
 import { ChevronDown } from "lucide-react";
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/Reveal";
 
-export async function Faq() {
+type FaqProps = {
+  /** When true (standalone /faq page), hide the link to the full FAQ URL. */
+  standalonePage?: boolean;
+};
+
+export async function Faq({ standalonePage = false }: FaqProps) {
   const t = await getTranslations("Faq");
   const items = t.raw("items") as { q: string; a: string }[];
 
@@ -35,12 +41,22 @@ export async function Faq() {
               </summary>
               <div className="faq-panel">
                 <div className="faq-panel-inner border-t border-slate-200 bg-white px-4 py-4 text-slate-600 sm:px-5">
-                  {item.a}
+                  <p className="leading-relaxed">{item.a}</p>
                 </div>
               </div>
             </details>
           ))}
         </div>
+        {!standalonePage ? (
+          <p className="mt-8 text-center text-sm text-slate-600">
+            <Link
+              href="/faq"
+              className="font-semibold text-orange-800 underline-offset-4 hover:underline"
+            >
+              {t("viewAllOnOnePage")}
+            </Link>
+          </p>
+        ) : null}
       </div>
     </section>
   );

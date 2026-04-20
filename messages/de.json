@@ -28,6 +28,12 @@
     "imageAlt": "Blick über Heidelberg mit Schloss und Altstadt",
     "trustLine": "Lokal vor Ort, Festpreise am Telefon, persönlicher Service"
   },
+  "SeoIntro": {
+    "title": "Schlüsselnotdienst in Heidelberg & Rhein-Neckar",
+    "p1": "Als Schlüsselnotdienst in Heidelberg kennen wir die typischen Notfälle: die Wohnungstür ist zugefallen, der Schlüssel steckt innen, der Zylinder klemmt oder ein Schlüssel ist abgebrochen. Wir sind für Privathaushalte, Vermieter und Gewerbe im Raum Heidelberg und Rhein-Neckar unterwegs und erklären am Telefon verständlich, welche Türöffnung oder welcher Zylinderwechsel nötig ist.",
+    "p2": "Festpreise sind für uns selbstverständlich: Sie erhalten vor dem Einsatz eine klare Preisangabe, damit Sie im Stress nicht im Unklaren bleiben. Als Kleinunternehmer weisen wir keine Umsatzsteuer aus; diesen Vorteil geben wir transparent an Sie weiter. Neben einfachen und erschwerten Türöffnungen beraten wir zu Schlosswechseln und sinnvollem Einbruchschutz, soweit es fachlich zum Auftrag passt.",
+    "p3": "Unser Fokus liegt auf schneller Hilfe, sauberer Kommunikation und lösungsorientierter Arbeit vor Ort. Wenn Sie ausgesperrt sind oder Ihre Sicherheit verbessern möchten, rufen Sie uns an. Wir koordinieren Anfahrt und Vorgehen und halten uns an den vereinbarten Festpreis, solange sich die Situation vor Ort nicht wesentlich von Ihrer Schilderung unterscheidet."
+  },
   "Benefits": {
     "title": "Vorteile",
     "subtitle": "Warum Kundinnen und Kunden uns vertrauen.",
@@ -91,10 +97,11 @@
   "Faq": {
     "title": "FAQs",
     "subtitle": "Die häufigsten Fragen, kurz beantwortet.",
+    "viewAllOnOnePage": "Alle Fragen auf einer Seite",
     "items": [
       {
         "q": "Öffnen Sie Türen zerstörungsfrei?",
-        "a": "Wenn die Tür nur zugezogen und nicht abgeschlossen ist, öffnen wir solche Türen in der Regel zerstörungsfrei, außer bei sehr schmalen Spalten oder schwer beweglicher Falle. Dann prüfen wir zuerst Alternativen, etwa ein Fenster, bevor der Zylinder aufgefräst wird."
+        "a": "Wenn die Tür nur zugezogen und nicht abgeschlossen ist, öffnen wir solche Türen in der Regel zerstörungsfrei, außer bei sehr schmalen Spalten oder einer schwer beweglichen Falle. Dann prüfen wir zuerst Alternativen, etwa ein Fenster, bevor der Zylinder aufgefräst wird."
       },
       {
         "q": "Bekomme ich am Telefon einen Endpreis?",
@@ -102,7 +109,7 @@
       },
       {
         "q": "Welche Zahlungsmöglichkeiten gibt es?",
-        "a": "Barzahlung und EC-Karte. Sie erhalten Rechnung und Quittung. Auf Rechnungskauf bieten wir aus Erfahrung keine Zahlung an."
+        "a": "Barzahlung und EC-Karte. Sie erhalten Rechnung und Quittung. Zahlung auf Rechnung bieten wir aus Erfahrung nicht an."
       },
       {
         "q": "Wie lange dauert eine Türöffnung?",
@@ -114,7 +121,7 @@
       },
       {
         "q": "Übernimmt die Hausratversicherung die Kosten?",
-        "a": "Das ist von Police zu Police unterschiedlich. Bei gestohlenem Schlüssel besteht oft eine realistische Chance auf Erstattung der Kosten für die Türöffnung. Fragen Sie bei Ihrer Versicherung nach."
+        "a": "Das ist von Versicherung zu Versicherung unterschiedlich. Bei gestohlenem Schlüssel besteht oft eine realistische Chance auf Erstattung der Kosten für die Türöffnung. Fragen Sie bei Ihrer Versicherung nach."
       }
     ]
   },
@@ -144,6 +151,7 @@
   },
   "Footer": {
     "rights": "Alle Rechte vorbehalten.",
+    "faq": "FAQ",
     "imprint": "Impressum",
     "privacy": "Datenschutz",
     "tagline": "Schlüsselnotdienst Florian Weineck, Heidelberg und Umgebung",
@@ -155,6 +163,10 @@
     "privacyLink": "Mehr in der Datenschutzerklärung",
     "acceptAll": "Alle akzeptieren",
     "essentialOnly": "Nur notwendige"
+  },
+  "FaqPageMeta": {
+    "title": "FAQ: Häufige Fragen",
+    "description": "Antworten zu Türöffnung, Festpreisen, Zahlung, Versicherung und Ablauf beim Schlüsselnotdienst Florian Weineck in Heidelberg."
   },
   "Legal": {
     "impressumTitle": "Impressum",

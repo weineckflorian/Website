@@ -4,10 +4,11 @@ import { routing } from "@/i18n/routing";
 
 export const dynamic = "force-static";
 
-const base =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de";
+const base = (
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de"
+).replace(/\/$/, "");
 
-const routes = ["/", "/impressum", "/datenschutz"] as const;
+const routes = ["/", "/impressum", "/datenschutz", "/faq"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const out: MetadataRoute.Sitemap = [
@@ -37,8 +38,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       out.push({
         url: `${base}${getPathname({ locale, href })}`,
         lastModified: new Date(),
-        changeFrequency: href === "/" ? "weekly" : "monthly",
-        priority: href === "/" ? 1 : 0.7,
+        changeFrequency:
+          href === "/" || href === "/faq" ? "weekly" : "monthly",
+        priority: href === "/" ? 1 : href === "/faq" ? 0.85 : 0.7,
         alternates: { languages },
       });
     }

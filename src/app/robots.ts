@@ -2,8 +2,9 @@ import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
 
-const base =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de";
+const base = (
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de"
+).replace(/\/$/, "");
 
 export default function robots(): MetadataRoute.Robots {
   return {

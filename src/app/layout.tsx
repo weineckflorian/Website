@@ -1,16 +1,19 @@
 import type { ReactNode } from "react";
 import type { Metadata } from "next";
 import "./globals.css";
+import { getPathname } from "@/i18n/navigation";
 
 type Props = {
   children: ReactNode;
 };
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de";
+const siteUrl = (
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de"
+).replace(/\/$/, "");
+const twitterSite = process.env.NEXT_PUBLIC_TWITTER_SITE?.trim();
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(`${siteUrl}/`),
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
     shortcut: ["/icon.svg"],
@@ -28,16 +31,16 @@ export const metadata: Metadata = {
     "Schlüsseldienst Rhein-Neckar",
   ],
   alternates: {
-    canonical: "/",
+    canonical: `${siteUrl}${getPathname({ locale: "de", href: "/" })}`,
     languages: {
-      de: "/de",
-      en: "/en",
-      "x-default": "/de",
+      de: `${siteUrl}${getPathname({ locale: "de", href: "/" })}`,
+      en: `${siteUrl}${getPathname({ locale: "en", href: "/" })}`,
+      "x-default": `${siteUrl}${getPathname({ locale: "de", href: "/" })}`,
     },
   },
   openGraph: {
     type: "website",
-    url: "/",
+    url: `${siteUrl}${getPathname({ locale: "de", href: "/" })}`,
     siteName: "Schlüsselnotdienst Florian Weineck",
     title: "Schlüsseldienst Heidelberg | Schlüsselnotdienst Florian Weineck",
     description:
@@ -53,6 +56,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    ...(twitterSite ? { site: twitterSite } : {}),
     title: "Schlüsseldienst Heidelberg | Florian Weineck",
     description:
       "Türöffnung, Schlosswechsel und Notdienst im Raum Heidelberg.",

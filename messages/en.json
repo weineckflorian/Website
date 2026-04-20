@@ -28,6 +28,12 @@
     "imageAlt": "Panoramic view of Heidelberg with castle and old town",
     "trustLine": "Local, fixed prices on the phone, personal service"
   },
+  "SeoIntro": {
+    "title": "Locksmith & emergency locksmith in Heidelberg & the Rhine-Neckar region",
+    "p1": "As an emergency locksmith in Heidelberg, we see the same urgent situations again and again: the flat door shut behind you, the key left inside, a sticky cylinder, or a broken key. We support private households, landlords, and businesses across Heidelberg and the Rhine-Neckar area, and we explain clearly on the phone what kind of door opening or cylinder change is likely needed.",
+    "p2": "Fixed prices are part of how we work: before we head out, you get a clear quote so you are not left guessing in a stressful moment. As a small business (Kleinunternehmer), VAT is not shown on invoices; we pass that advantage on transparently. Beyond simple and complex door openings, we advise on lock changes and sensible burglary protection where it fits the job.",
+    "p3": "Our focus is fast help, clear communication, and practical solutions on site. If you are locked out or want to improve security, call us. We coordinate arrival and next steps and stick to the agreed fixed price as long as the situation on site does not differ materially from what you described."
+  },
   "Benefits": {
     "title": "Benefits",
     "subtitle": "Why customers trust us.",
@@ -91,6 +97,7 @@
   "Faq": {
     "title": "FAQ",
     "subtitle": "Common questions, answered briefly.",
+    "viewAllOnOnePage": "All questions on one page",
     "items": [
       {
         "q": "Do you open doors without damage?",
@@ -144,6 +151,7 @@
   },
   "Footer": {
     "rights": "All rights reserved.",
+    "faq": "FAQ",
     "imprint": "Imprint",
     "privacy": "Privacy",
     "tagline": "Emergency Locksmith Florian Weineck, Heidelberg and surrounding area",
@@ -155,6 +163,10 @@
     "privacyLink": "Learn more in the privacy policy",
     "acceptAll": "Accept all",
     "essentialOnly": "Essential only"
+  },
+  "FaqPageMeta": {
+    "title": "FAQ: common questions",
+    "description": "Answers on door openings, fixed prices, payment, insurance, and what to expect from emergency locksmith Florian Weineck in Heidelberg."
   },
   "Legal": {
     "impressumTitle": "Imprint",

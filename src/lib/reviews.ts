@@ -26,7 +26,7 @@ const STATIC_REVIEWS_DE: PlaceReview[] = [
     author_name: "Timbo",
     rating: 5,
     relative_time_description: "vor einer Woche",
-    text: "Ich hatte mich ausgesperrt und der Dienst war unglaublich schnell zur Stelle. Sehr freundlicher und kompetenter Mitarbeiter, der die Tür in wenigen Minuten ohne jegliche Schäden geöffnet hat. Der Preis war absolut fair und transparent. Klare Empfehlung – vielen Dank für die schnelle Hilfe!",
+    text: "Ich hatte mich ausgesperrt und der Dienst war unglaublich schnell zur Stelle. Sehr freundlicher und kompetenter Mitarbeiter, der die Tür in wenigen Minuten ohne jegliche Schäden geöffnet hat. Der Preis war absolut fair und transparent. Klare Empfehlung. Vielen Dank für die schnelle Hilfe!",
   },
   {
     author_name: "Selina Orfanelli",
