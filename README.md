@@ -19,7 +19,7 @@ In Cloudflare Pages, use:
 
 ### Environment variables for build
 
-If you want Google reviews baked into the static build, set these in Cloudflare Pages:
+If you want Google reviews baked into the static build, set these in Cloudflare Pages (step-by-step: `GOOGLE_REVIEWS_SETUP.md`):
 
 - `GOOGLE_PLACES_API_KEY` (required for reviews)
 - `GOOGLE_PLACE_ID` (recommended)

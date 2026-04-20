@@ -133,14 +133,14 @@
   },
   "Reviews": {
     "title": "Bewertungen",
-    "subtitle": "Auszug aus Google Maps (bis zu fünf aktuelle Bewertungen).",
-    "mockNotice": "Hinweis: Die aktuell angezeigten Bewertungen sind Platzhalter (Mock-Daten) und werden in Kürze durch echte Google-Bewertungen ersetzt.",
+    "subtitle": "Statische Kundenbewertungen (Stand 20.04.2026).",
+    "mockNotice": "Zuletzt aktualisiert: 20.04.2026",
     "empty": "Für diesen Eintrag liegen gerade keine Bewertungen über die Schnittstelle vor.",
     "missingKey": "Google-Bewertungen: Tragen Sie GOOGLE_PLACES_API_KEY in .env.local ein (Google Cloud, Places API).",
     "placeNotFound": "Eintrag nicht gefunden. Setzen Sie GOOGLE_PLACE_ID oder prüfen Sie GOOGLE_PLACES_PHONE / GOOGLE_PLACES_SEARCH_QUERY.",
     "openOnGoogle": "Alle Bewertungen auf Google Maps ansehen",
     "googleAttribution": "Daten von Google",
-    "basedOn": "Basierend auf {count} Bewertungen auf Google"
+    "basedOn": "Basierend auf {count} Berichten"
   },
   "Footer": {
     "rights": "Alle Rechte vorbehalten.",

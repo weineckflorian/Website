@@ -133,14 +133,14 @@
   },
   "Reviews": {
     "title": "Reviews",
-    "subtitle": "From Google Maps (up to five recent reviews).",
-    "mockNotice": "Note: The reviews currently shown are placeholders (mock data) and will be replaced with real Google reviews soon.",
+    "subtitle": "Static customer reviews (as of 20.04.2026).",
+    "mockNotice": "Last updated: 20.04.2026",
     "empty": "No reviews are available via the API for this listing right now.",
     "missingKey": "Google reviews: add GOOGLE_PLACES_API_KEY to .env.local (Google Cloud, Places API).",
     "placeNotFound": "Place not found. Set GOOGLE_PLACE_ID or check GOOGLE_PLACES_PHONE / GOOGLE_PLACES_SEARCH_QUERY.",
     "openOnGoogle": "See all reviews on Google Maps",
     "googleAttribution": "Data from Google",
-    "basedOn": "Based on {count} Google reviews"
+    "basedOn": "Based on {count} reports"
   },
   "Footer": {
     "rights": "All rights reserved.",
