@@ -44,7 +44,7 @@ export function Header() {
           className="transition-transform duration-200 hover:scale-[1.02]"
         >
           <Image
-            src="/images/download%20no%20bg.png"
+            src="/images/download-no-bg.png"
             alt="Schluesseldienst Florian Weineck"
             width={1500}
             height={426}

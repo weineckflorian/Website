@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 import { JsonLd } from "@/components/JsonLd";
 import { CookieConsentBanner } from "@/components/CookieConsentBanner";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -26,9 +27,14 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
   const base =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://schluesselnotdienst-weineck.de";
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de";
 
   return {
+    icons: {
+      icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+      shortcut: ["/icon.svg"],
+      apple: [{ url: "/icon.svg" }],
+    },
     title: {
       default: t("title"),
       template: `%s · Florian Weineck`,
@@ -77,6 +83,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <NextIntlClientProvider messages={messages}>
         {children}
         <CookieConsentBanner />
+        <GoogleAnalytics />
       </NextIntlClientProvider>
     </div>
   );

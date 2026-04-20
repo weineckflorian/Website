@@ -5,7 +5,7 @@ import { routing } from "@/i18n/routing";
 export const dynamic = "force-static";
 
 const base =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://schluesselnotdienst-weineck.de";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de";
 
 const routes = ["/", "/impressum", "/datenschutz"] as const;
 

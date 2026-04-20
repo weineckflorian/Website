@@ -13,9 +13,24 @@ export async function Footer() {
           <div>
             <p className="font-semibold text-white">{t("tagline")}</p>
             <p className="mt-1 text-sm text-slate-400">
-              © {year} Florian Weineck. {t("rights")}
+              © {year}{" "}
+              <a
+                href="mailto:info@schlüsselnotdienst-weineck.de"
+                className="underline decoration-slate-500 underline-offset-4 transition-colors hover:text-white"
+              >
+                Florian Weineck
+              </a>
+              . {t("rights")}
             </p>
-            <p className="mt-2 text-xs text-slate-500">{t("siteCredit")}</p>
+            <p className="mt-1 text-[11px] text-slate-500">
+              {t("designerLabel")}{" "}
+              <a
+                href="mailto:info@tim-strohmenger.de"
+                className="underline decoration-slate-500 underline-offset-4 transition-colors hover:text-white"
+              >
+                Tim Strohmenger
+              </a>
+            </p>
           </div>
           <nav className="flex flex-wrap gap-6 text-sm font-medium">
             <Link href="/impressum" className="transition-colors hover:text-white">

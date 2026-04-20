@@ -87,10 +87,10 @@ export function Hero() {
           <p className="hero-line hero-line-1 mb-3 text-sm font-semibold uppercase tracking-widest text-amber-100/95">
             {t("eyebrow")}
           </p>
-          <h1 className="hero-line hero-line-2 max-w-3xl text-4xl font-bold leading-tight tracking-tight drop-shadow-sm sm:text-5xl lg:text-6xl">
+          <h1 className="hero-line hero-title max-w-3xl text-4xl font-bold leading-tight tracking-tight drop-shadow-sm sm:text-5xl lg:text-6xl">
             {t("title")}
           </h1>
-          <p className="hero-line hero-line-3 mt-6 max-w-2xl text-lg leading-relaxed text-slate-100/95 sm:text-xl">
+          <p className="hero-line hero-subtitle mt-6 max-w-2xl text-lg leading-relaxed text-slate-100/95 sm:text-xl">
             {t("subtitle")}
           </p>
           <p className="hero-line hero-line-4 mt-4 max-w-2xl text-sm font-medium text-slate-200/90 sm:text-base">

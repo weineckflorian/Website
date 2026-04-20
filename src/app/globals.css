@@ -57,20 +57,24 @@ body {
   animation: hero-line-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
-.hero-line-1 {
-  animation-delay: 0.05s;
+.hero-title {
+  animation-delay: 0.06s;
+  animation-duration: 0.52s;
 }
-.hero-line-2 {
-  animation-delay: 0.12s;
-}
-.hero-line-3 {
+
+.hero-subtitle {
   animation-delay: 0.19s;
+  animation-duration: 0.56s;
+}
+
+.hero-line-1 {
+  animation-delay: 0.31s;
 }
 .hero-line-4 {
-  animation-delay: 0.26s;
+  animation-delay: 0.35s;
 }
 .hero-line-5 {
-  animation-delay: 0.33s;
+  animation-delay: 0.44s;
 }
 
 .hero-scroll-content {

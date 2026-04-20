@@ -7,10 +7,15 @@ type Props = {
 };
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://schluesselnotdienst-weineck.de";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    shortcut: ["/icon.svg"],
+    apple: [{ url: "/icon.svg" }],
+  },
   title: "Schlüsseldienst Heidelberg | Schlüsselnotdienst Florian Weineck",
   description:
     "Schlüsseldienst in Heidelberg und Rhein-Neckar: Türöffnung, Schlosswechsel und Einbruchschutz mit transparenten Festpreisen.",

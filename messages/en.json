@@ -147,7 +147,8 @@
     "imprint": "Imprint",
     "privacy": "Privacy",
     "tagline": "Emergency Locksmith Florian Weineck, Heidelberg and surrounding area",
-    "siteCredit": "Website: Tim Strohmenger"
+    "ownerLabel": "Owner:",
+    "designerLabel": "Web design:"
   },
   "CookieConsent": {
     "text": "This site uses technically necessary storage (for example, to remember your choice). If you choose “Accept all”, we may also load the embedded Google map (which may use cookies and send personal data to Google).",

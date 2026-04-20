@@ -147,7 +147,8 @@
     "imprint": "Impressum",
     "privacy": "Datenschutz",
     "tagline": "Schlüsselnotdienst Florian Weineck, Heidelberg und Umgebung",
-    "siteCredit": "Website: Tim Strohmenger"
+    "ownerLabel": "Inhaber:",
+    "designerLabel": "Webdesign:"
   },
   "CookieConsent": {
     "text": "Diese Website verwendet technisch notwendige Speicherung (z. B. für Ihre Auswahl hier). Wenn Sie „Alle akzeptieren“ wählen, dürfen wir auch die eingebettete Google-Karte laden (dabei können Cookies und personenbezogene Daten an Google übermittelt werden).",

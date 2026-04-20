@@ -25,3 +25,4 @@ If you want Google reviews baked into the static build, set these in Cloudflare 
 - `GOOGLE_PLACE_ID` (recommended)
 - Optional fallback: `GOOGLE_PLACES_PHONE`, `GOOGLE_PLACES_SEARCH_QUERY`
 - `NEXT_PUBLIC_SITE_URL` (canonical URLs/sitemap base)
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID` (optional — GA4 ID `G-…`, only loads after cookie “Accept all”; see `GOOGLE_ANALYTICS_SETUP.md`)

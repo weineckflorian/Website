@@ -3,7 +3,7 @@ type Props = {
 };
 
 const SITE =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://schluesselnotdienst-weineck.de";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.schluesseldienst-rheinneckar.de";
 
 export function JsonLd({ locale }: Props) {
   const data = {
